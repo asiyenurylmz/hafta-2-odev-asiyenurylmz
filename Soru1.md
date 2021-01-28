@@ -7,7 +7,6 @@ with count_medals as
   from asiyenur_yilmaz.summer_medals
   Where Year >= 1980
   Group By Sport, Country 
-  Order By Sport Asc, Medals_Count Desc
 )
 Select * 
 from(
